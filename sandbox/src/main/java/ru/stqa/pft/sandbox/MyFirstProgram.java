@@ -1,5 +1,7 @@
 package ru.stqa.pft.sandbox;
 
+import java.awt.*;
+
 public class MyFirstProgram
 {
 	public static void main(String[] args) {
@@ -8,5 +10,7 @@ public class MyFirstProgram
         System.out.println("Площадь квадрата со стороной "+s.l+" = "+s.area());
 		Rectangle r = new Rectangle(4,6);
 		System.out.println("Площадь прямоугольника со сторонами "+r.a+" и "+r.b+" = "+r.area());
+		Distance d= new Distance(2,4,5,-1);
+		System.out.println("Растояние между точками "+d.dist());
 	}
 }
